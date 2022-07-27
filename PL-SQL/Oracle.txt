@@ -1,0 +1,46 @@
+ESTAMOS USANDO SQL 21C QUE ENTIENDE DE MINISCULAS Y MAYUSCULAS
+
+
+
+Introducción a PL/SQL
+Preparar la infraestructura
+Bloques PL-SQL
+Variables, estructuras de control, bucles 
+Colecciones y tipos asociados
+Cursores 
+Procedimiento y funciones
+Paquetes
+Triggers
+
+Herramientas: Oracle Database 11g
+
+SQL -> No es un lenguaje procedural.
+PL/SQL Permite suplir esas carencias 
+Bloques: DCLARE, BEGIN, EXCEPTION, END
+
+Tipos=> Bloques anónimos, procedimiento y funciones, triggers
+
+//Entrar a una db 
+Pasos para instalar tablas_hr.sql  
+(root nombre de usuario)
+-> sqlplus system/root@localhost:1521/xepdb1
+-> start tablas_hr.sql
+-> select tname from tab; /Ver tablas creadas 
+
+Abrir SQL-Developer
+->Conexión 
+usuario system y contraseña root  
+Detalles->
+nombre del host: localhost
+SID: xe
+Nombre del Servicio: xepdb1
+
+-> Poner el usuario 
+-> ALTER USER HR ACCOUNT UNLOCK;
+-> ALTER USER HR IDENTIFIED BY hr;
+
+-> Conexión usuario 
+-> Se repite el mismo usuario el anterior
+-> usuario HR y contraseña hr 
+-> SID: xe
+-> Nombre del Servicio: xepdb1

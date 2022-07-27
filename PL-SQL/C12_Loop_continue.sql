@@ -1,0 +1,17 @@
+SET SERVEROUTPUT ON;
+DECLARE 
+    X NUMBER:=0;
+BEGIN
+    LOOP
+        DBMS_OUTPUT.PUT_LINE('LOOP: X= ' || TO_CHAR(X));
+        X:=X+1;
+        /*IF X<3 THEN 
+            CONTINUE;
+        END IF;*/
+        CONTINUE WHEN X<3; -- IT'S BETTER THAN USE THE STAMENT IF
+        DBMS_OUTPUT.PUT_LINE
+            ('DESPUES DE CONTINUE: X=' || TO_CHAR(X));
+        EXIT WHEN X=5;
+    END LOOP;
+    DBMS_OUTPUT.PUT_LINE(' DESPUES DEL LOOP: X= ' || TO_CHAR(X));
+END;

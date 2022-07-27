@@ -1,0 +1,7 @@
+Cursores->
+Implicitos --> Select ...
+Explicitos --> Definimos la select, llenamos y más. Es más potente que los implicitos ;)
+
+Ciclo de vida cursor 
+
+Oracle => declarar cursosr (select) => Abrir Cursos (Zona de memoria) => Leer fila del cursor => fin cursor => cerrar 
