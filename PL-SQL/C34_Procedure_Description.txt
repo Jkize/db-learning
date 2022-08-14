@@ -1,0 +1,5 @@
+IN --> (Data input)
+OUT <-- (Data output)
+IN/OUT  <---> (Input and Output)
+
+The in variables are not modified. 

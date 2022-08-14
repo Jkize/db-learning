@@ -1,0 +1,12 @@
+DBMS_OUTPUT
+UTL_FILE
+UTL_MAIL
+DBMS_ALERT
+DBMS_LOCK 
+DBMS_SESSION
+DBMS_APPLICATION_INFO
+HTP - > Automating web pages
+DBMS_SCHEDULER
+
+
+Book -> Database PL/SQL Packages and Types Reference
